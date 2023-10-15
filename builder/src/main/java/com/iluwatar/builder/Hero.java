@@ -26,6 +26,8 @@ package com.iluwatar.builder;
 
 /**
  * Hero,the record class.
+ *
+ * 记录类是 Java 16 版本引入的一种特殊类，用于表示不可变的数据实体，通常用于模型化数据。
  */
 
 public record Hero(Profession profession, String name, HairType hairType, HairColor hairColor, Armor armor, Weapon weapon) {
