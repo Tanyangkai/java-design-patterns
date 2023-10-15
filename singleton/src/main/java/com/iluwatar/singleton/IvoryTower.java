@@ -37,6 +37,13 @@ public final class IvoryTower {
 
   /**
    * Static to class instance of the class.
+   *
+   * 私有的静态成员变量在整个应用程序生命周期中一直存在，所以每次调用 getInstance() 方法都会返回相同的单例对象。
+   * 这确保了单例的唯一性，即不会创建多个实例。
+   *
+   * 幂等性
+   *
+   * 当一个类被加载时，它的静态成员变量会被初始化
    */
   private static final IvoryTower INSTANCE = new IvoryTower();
 

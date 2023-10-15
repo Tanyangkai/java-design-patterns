@@ -61,17 +61,17 @@ public final class ThreadSafeDoubleCheckLocking {
     var result = instance;
     // Check if singleton instance is initialized.
     // If it is initialized then we can return the instance.
-    if (result == null) {
+    if (result == null) { // 第一次
       // It is not initialized but we cannot be sure because some other thread might have
       // initialized it in the meanwhile.
       // So to make sure we need to lock on an object to get mutual exclusion.
-      synchronized (ThreadSafeDoubleCheckLocking.class) {
+      synchronized (ThreadSafeDoubleCheckLocking.class) { // 确保只有一个线程能够进入同步块内部
         // Again assign the instance to local variable to check if it was initialized by some
         // other thread while current thread was blocked to enter the locked zone.
         // If it was initialized then we can return the previously created instance
         // just like the previous null check.
         result = instance;
-        if (result == null) {
+        if (result == null) { // 第二次
           // The instance is still not initialized so we can safely
           // (no other thread can enter this zone)
           // create an instance and make it our singleton instance.

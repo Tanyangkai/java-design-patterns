@@ -56,6 +56,10 @@ public final class InitializingOnDemandHolderIdiom {
 
   /**
    * Provides the lazy-loaded Singleton instance.
+   *
+   * 静态内部类 HelperHolder 包含了一个静态的、final 修饰的 INSTANCE 变量，它是 InitializingOnDemandHolderIdiom 类的实例。
+   * 这个内部类只有在首次被引用时才会加载，这就实现了懒加载（lazy-loading）的效果。
+   * 当 InitializingOnDemandHolderIdiom.getInstance() 方法被调用时，它会返回 HelperHolder.INSTANCE，从而获得单例对象。
    */
   private static class HelperHolder {
 
