@@ -54,6 +54,10 @@ public abstract class AbstractDocument implements Document {
     return properties.get(key);
   }
 
+  /*
+  * Stream 是 Java 编程语言中的一个核心类，它用于处理集合数据或序列数据的连续流式操作。
+  * Stream 类提供了一种便捷的方式来执行各种操作，例如过滤、映射、归约和排序，以便轻松处理集合中的元素。
+  * */
   @Override
   public <T> Stream<T> children(String key, Function<Map<String, Object>, T> constructor) {
     return Stream.ofNullable(get(key))

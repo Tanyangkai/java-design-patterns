@@ -33,6 +33,7 @@ import java.util.stream.Stream;
  */
 public interface HasParts extends Document {
 
+  // 默认方法的主要用途是允许在接口中添加新功能，同时不破坏已有的实现。
   default Stream<Part> getParts() {
     return children(Property.PARTS.toString(), Part::new);
   }

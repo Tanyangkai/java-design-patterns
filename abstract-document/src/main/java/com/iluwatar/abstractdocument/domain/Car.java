@@ -30,6 +30,7 @@ import java.util.Map;
 /**
  * Car entity.
  */
+//extends 继承
 public class Car extends AbstractDocument implements HasModel, HasPrice, HasParts {
 
   public Car(Map<String, Object> properties) {

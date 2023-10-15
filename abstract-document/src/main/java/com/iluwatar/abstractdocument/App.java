@@ -38,6 +38,7 @@ import lombok.extern.slf4j.Slf4j;
  * <p>In Abstract Document pattern,({@link AbstractDocument}) fully implements {@link Document})
  * interface. Traits are then defined to enable access to properties in usual, static way.
  */
+// @Slf4j 注解自动生成了一个名为 log 的日志记录器，可以用来记录信息和错误日志。
 @Slf4j
 public class App {
 
@@ -49,6 +50,7 @@ public class App {
   public static void main(String[] args) {
     LOGGER.info("Constructing parts and car");
 
+    // Map.of 是 Java 9 引入的静态工厂方法，用于创建不可变 Map。
     var wheelProperties = Map.of(
         Property.TYPE.toString(), "wheel",
         Property.MODEL.toString(), "15C",
@@ -62,6 +64,7 @@ public class App {
     var carProperties = Map.of(
         Property.MODEL.toString(), "300SL",
         Property.PRICE.toString(), 10000L,
+        // 第三个键值对：Property.PARTS.toString(), List.of(wheelProperties, doorProperties)
         Property.PARTS.toString(), List.of(wheelProperties, doorProperties));
 
     var car = new Car(carProperties);

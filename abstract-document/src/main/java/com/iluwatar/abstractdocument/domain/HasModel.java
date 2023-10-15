@@ -31,9 +31,11 @@ import java.util.Optional;
 /**
  * HasModel trait for static access to 'model' property.
  */
+// 接口之间是可以继承的
 public interface HasModel extends Document {
 
   default Optional<String> getModel() {
+    // Optional 是 Java 中的一个类，它在 Java 8 引入，并用于处理可能为空（null）的值，以避免空指针异常。
     return Optional.ofNullable((String) get(Property.MODEL.toString()));
   }
 
