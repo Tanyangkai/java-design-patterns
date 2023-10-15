@@ -41,6 +41,7 @@ public class Kingdom {
   /**
    * The factory of kingdom factories.
    */
+  // 静态方法
   public static class FactoryMaker {
 
     /**

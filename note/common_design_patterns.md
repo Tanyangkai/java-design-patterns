@@ -1,155 +1,34 @@
-| 常用指数  | 当前掌握程度 | 设计模式名称                               |
-|-----------|-------------|--------------------------------------------|
-| ★★★★★   |             | Abstract Document                          |
-| ★★★★★   |             | Abstract Factory                           |
-| ★★★      |             | Active Object                              |
-| ★★        |             | Acyclic Visitor                            |
-| ★★★      |             | Adapter                                    |
-| ★★★★   |             | Aggregator Microservices                   |
-| ★★        |             | Ambassador                                 |
-| ★★★      |             | API Gateway                                |
-| ★★★      |             | Arrange/Act/Assert                         |
-| ★★        |             | Async Method Invocation                    |
-| ★★        |             | Balking                                    |
-| ★★★★   |             | Bridge                                     |
-| ★★★★   |             | Builder                                    |
-| ★★★      |             | Business Delegate                          |
-| ★★★      |             | Bytecode                                   |
-| ★★★      |             | Caching                                    |
-| ★★        |             | Callback                                   |
-| ★★★      |             | Chain of responsibility                    |
-| ★★        |             | Circuit Breaker                            |
-| ★★        |             | Client Session Pattern                     |
-| ★★        |             | Collecting Parameter                       |
-| ★★        |             | Collection Pipeline                        |
-| ★★★      |             | Combinator                                 |
-| ★★★★   |             | Command                                    |
-| ★★        |             | Commander                                  |
-| ★★        |             | Component                                  |
-| ★★★      |             | Composite                                  |
-| ★★★      |             | Composite Entity                           |
-| ★★★      |             | Composite View                             |
-| ★★★      |             | Context object                             |
-| ★★        |             | Converter                                  |
-| ★★★      |             | CQRS                                       |
-| ★★★      |             | Currying                                   |
-| ★★★      |             | Data Access Object                         |
-| ★★        |             | Data Bus                                   |
-| ★★        |             | Data Locality                              |
-| ★★★      |             | Data Mapper                                |
-| ★★        |             | Data Transfer Object                       |
-| ★★★      |             | Decorator                                  |
-| ★★★      |             | Delegation                                 |
-| ★★★      |             | Dependency Injection                       |
-| ★★        |             | Dirty Flag                                 |
-| ★★★      |             | Domain Model                               |
-| ★★        |             | Double Buffer                              |
-| ★★★★   |             | Double Checked Locking                     |
-| ★★★      |             | Double Dispatch                            |
-| ★★★      |             | Embedded Value                             |
-| ★★★      |             | Event Aggregator                           |
-| ★★        |             | Event-based Asynchronous                   |
-| ★★★      |             | Event Driven Architecture                  |
-| ★★★      |             | Event Queue                                |
-| ★★★      |             | Event Sourcing                             |
-| ★★★      |             | Execute Around                             |
-| ★★        |             | Extension objects                          |
-| ★★★      |             | Facade                                     |
-| ★★★      |             | Factory                                    |
-| ★★★      |             | Factory Kit                                |
-| ★★★      |             | Factory Method                             |
-| ★★        |             | Fan-Out/Fan-In                             |
-| ★★★      |             | Feature Toggle                             |
-| ★★★      |             | Filterer                                   |
-| ★★★      |             | Fluent Interface                           |
-| ★★★      |             | Flux                                       |
-| ★★★      |             | Flyweight                                  |
-| ★★★      |             | Front Controller                           |
-| ★★        |             | Game Loop                                  |
-| ★★★      |             | Guarded Suspension                         |
-| ★★★      |             | Half-Sync/Half-Async                       |
-| ★★★      |             | Hexagonal Architecture                      |
-| ★★★      |             | Identity Map                               |
-| ★★★      |             | Intercepting Filter                        |
-| ★★★      |             | Interpreter                                |
-| ★★        |             | Iterator                                   |
-| ★★★      |             | Layers                                     |
-| ★★        |             | Lazy Loading                               |
-| ★★★      |             | Leader Election                            |
-| ★★★      |             | Leader/Followers                           |
-| ★★★      |             | Lockable Object                            |
-| ★★        |             | Marker Interface                           |
-| ★★★      |             | Master-Worker Pattern                      |
-| ★★★      |             | Mediator                                   |
-| ★★★      |             | Memento                                    |
-| ★★★      |             | Metadata Mapping                           |
-| ★★★      |             | Model-View-Controller                      |
-| ★★★      |             | Model-View-Intent                          |
-| ★★★      |             | Model-View-Presenter                       |
-| ★★★      |             | Model-View-ViewModel                       |
-| ★★★      |             | Module                                     |
-| ★★        |             | Monad                                      |
-| ★★★      |             | Monitor                                    |
-| ★★        |             | MonoState                                  |
-| ★★        |             | Multiton                                   |
-| ★★        |             | Mute Idiom                                 |
-| ★★★      |             | Naked Objects                              |
-| ★★        |             | Null Object                                |
-| ★★★      |             | Object Mother                              |
-| ★★        |             | Object Pool                                |
-| ★★★      |             | Observer                                   |
-| ★★★      |             | Optimistic Offline Lock                     |
-| ★★★      |             | Page Controller                            |
-| ★★★      |             | Page Object                                |
-| ★★★      |             | Parameter Object                            |
-| ★★★      |             | Partial Response                            |
-| ★★★      |             | Pipeline                                   |
-| ★★★      |             | Poison Pill                                |
-| ★★★      |             | Presentation Model                         |
-| ★★★      |             | Priority Queue Pattern                     |
-| ★★★      |             | Private Class Data                         |
-| ★★★      |             | Producer Consumer                          |
-| ★★        |             | Promise                                    |
-| ★★★      |             | Property                                   |
-| ★★★      |             | Prototype                                  |
-| ★★★      |             | Proxy                                      |
-| ★★        |             | Queue-based Load Leveling                   |
-| ★★★      |             | Reactor                                    |
-| ★★        |             | Reader Writer Lock                         |
-| ★★        |             | Registry                                   |
-| ★★★      |             | Repository                                 |
-| ★★★      |             | Resource Acquisition Is Initialization      |
-| ★★        |             | Retry                                      |
-| ★★        |             | Role Object                                |
-| ★★★      |             | Saga                                       |
-| ★★        |             | Separated Interface                         |
-| ★★★      |             | Serialized Entity Pattern                  |
-| ★★★      |             | Servant                                    |
-| ★★★      |             | Service Layer                              |
-| ★★★      |             | Service Locator                            |
-| ★★★      |             | Service to Worker                          |
-| ★★★      |             | Sharding                                   |
-| ★★★      |             | Singleton                                  |
-| ★★★      |             | Spatial Partition                          |
-| ★★★      |             | Special Case                               |
-| ★★★      |             | Specification                               |
-| ★★★      |             | State                                      |
-| ★★★      |             | Step Builder                              |
-| ★★★      |             | Strangler                                  |
-| ★★★      |             | Strategy                                  |
-| ★★★      |             | Subclass Sandbox                           |
-| ★★★      |             | Table Module                              |
-| ★★★      |             | Template Method                           |
-| ★★★      |             | Thread-local Storage                      |
-| ★★★      |             | Thread Pool                                |
-| ★★        |             | Throttling                                |
-| ★★★      |             | Tolerant Reader                            |
-| ★★★      |             | Trampoline                                 |
-| ★★★      |             | Transaction Script                         |
-| ★★        |             | Twin                                       |
-| ★★★      |             | Type-Object                                |
-| ★★★      |             | Unit Of Work                               |
-| ★★        |             | Update Method                              |
-| ★★★      |             | Value Object                               |
-| ★★★      |             | Version Number                             |
-| ★★★      |             | Visitor                                   |
+## 创建型模式
+| 设计模式                           | 描述                               | 掌握程度 |
+|----------------------------------|------------------------------------|---------|
+| 工厂模式（Factory Pattern）          | 通过工厂方法创建对象，根据传递的参数返回具体类型的对象。        |         |
+| 抽象工厂模式（Abstract Factory Pattern） | 提供一个接口，用于创建相关或依赖对象的家族，而不需要指定具体类。 |         |
+| 单例模式（Singleton Pattern）         | 确保一个类只有一个实例，并提供一个全局访问点。              |         |
+| 建造者模式（Builder Pattern）         | 将复杂对象的构建与其表示分离，以使构建过程可以创建不同的表示。   |         |
+| 原型模式（Prototype Pattern）         | 通过复制现有对象来创建新对象，而不是从头开始构建。           |         |
+
+## 结构型模式
+| 设计模式                         | 描述                                   | 掌握程度 |
+|--------------------------------|----------------------------------------|---------|
+| 适配器模式（Adapter Pattern）       | 允许接口不兼容的类一起工作。                 |         |
+| 装饰器模式（Decorator Pattern）      | 允许动态地将责任附加到对象上。              |         |
+| 桥接模式（Bridge Pattern）         | 将抽象与实现分离，使它们可以独立变化。        |         |
+| 代理模式（Proxy Pattern）          | 为其他对象提供一种代理以控制对这个对象的访问。   |         |
+| 外观模式（Facade Pattern）         | 提供了一个更高级的接口，以简化子系统的使用。     |         |
+| 组合模式（Composite Pattern）       | 将对象组合成树形结构以表示部分-整体层次结构。    |         |
+| 享元模式（Flyweight Pattern）       | 通过共享来减小内存或计算开销。                 |         |
+
+## 行为型模式
+| 设计模式                             | 描述                                        | 掌握程度 |
+|------------------------------------|---------------------------------------------|---------|
+| 策略模式（Strategy Pattern）           | 定义一系列算法，封装它们，并使它们可以相互替换。           |         |
+| 模板方法模式（Template Pattern）       | 定义算法的骨架，允许子类重写特定步骤的内容。              |         |
+| 观察者模式（Observer Pattern）         | 定义一种一对多的依赖关系，当一个对象状态发生改变时，通知依赖它的对象。 |         |
+| 迭代器模式（Iterator Pattern）         | 提供一种方法顺序访问聚合对象的各个元素，而不暴露其内部表示。     |         |
+| 中介者模式（Mediator Pattern）          | 定义一个封装一组对象如何交互的对象，从而使对象之间的耦合松散。      |         |
+| 状态模式（State Pattern）             | 允许对象在其内部状态发生改变时改变它的行为。                  |         |
+| 职责链模式（Chain of Responsibility Pattern） | 通过为请求创建一个接收者对象的链，将请求的发送和接收解耦。        |         |
+| 命令模式（Command Pattern）           | 将请求封装为一个对象，允许参数化客户端操作队列，进行请求排队以及支持可撤销操作。 |         |
+| 备忘录模式（Memento Pattern）          | 捕获对象的内部状态，而不破坏封装性，允许在对象之外保存这个状态。   |         |
+| 解释器模式（Interpreter Pattern）        | 给定一个语言，定义它的文法的一种表示，并定义一个解释器，使用该表示来解释语言中的句子。 |         |
+| 访问者模式（Visitor Pattern）          | 表示一个作用于某对象结构中的各元素的操作，使您可以在不改变各元素的类的前提下定义作用于这些元素的新操作。   |         |

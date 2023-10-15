@@ -34,6 +34,9 @@ package com.iluwatar.acyclicvisitor;
  * its own visitor interface {@link HayesVisitor} and {@link ZoomVisitor} respectively. {@link
  * ConfigureForUnixVisitor} and {@link ConfigureForDosVisitor} implement each derivative's visit
  * method only if it is required
+ *
+ * "Acyclic Visitor"（无环访问者）是一种设计模式，它用于在不引入循环依赖的情况下，为一组相关对象提供多态性的访问操作。
+ * 这个模式是基于"Visitor"设计模式的扩展，旨在克服传统"Visitor"模式中的一些缺点，特别是消除了循环依赖问题。
  */
 public class App {
 

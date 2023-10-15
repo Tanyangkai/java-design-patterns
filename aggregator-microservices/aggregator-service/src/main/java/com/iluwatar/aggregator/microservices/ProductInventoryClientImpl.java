@@ -45,7 +45,7 @@ public class ProductInventoryClientImpl implements ProductInventoryClient {
 
     var request = HttpRequest.newBuilder()
         .GET()
-        .uri(URI.create("http://localhost:51516/inventories"))
+        .uri(URI.create("http://localhost:51516/inventories"))  // 去调用inventory-microservice
         .build();
     var client = HttpClient.newHttpClient();
     try {

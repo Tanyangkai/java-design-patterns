@@ -39,6 +39,7 @@ public class App {
    * @param args command line args
    */
   public static void main(String[] args) {
+    // 使用Spring Boot的SpringApplication类启动应用程序
     SpringApplication.run(App.class, args);
   }
 }

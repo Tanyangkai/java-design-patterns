@@ -52,7 +52,7 @@ public abstract class ActiveCreature {
   protected ActiveCreature(String name) {
     this.name = name;
     this.status = 0;
-    this.requests = new LinkedBlockingQueue<>();
+    this.requests = new LinkedBlockingQueue<>(); // 重点就是这个线程安全的队列
     thread = new Thread(() -> {
       boolean infinite = true;
       while (infinite) {

@@ -36,6 +36,9 @@ import org.slf4j.LoggerFactory;
  * into an invocator(usually a Runnable) and store it in the DSA.
  * 
  * <p>In this example, we fire 20 threads to modify a value in the target class.
+ *
+ * "Active Object" 是一种设计模式，通常用于多线程编程中，用于实现并发和异步操作，同时隐藏了底层的线程管理细节。
+ * 该模式的核心思想是将方法调用封装为对象，然后将这些对象排入队列，由专用的执行线程异步处理。
  */
 public class App implements Runnable {
   

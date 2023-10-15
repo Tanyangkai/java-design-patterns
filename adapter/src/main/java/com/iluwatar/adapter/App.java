@@ -42,6 +42,8 @@ package com.iluwatar.adapter;
  * new ship! we need to reuse this {@link FishingBoat}. The captain needs a rowing boat which he can
  * operate. The spec is in {@link RowingBoat}. We will use the Adapter pattern to reuse {@link
  * FishingBoat}.
+ *
+ * 使用的例子:log配置输出文件
  */
 public final class App {
 
@@ -58,5 +60,9 @@ public final class App {
     // use fishing boats as well
     var captain = new Captain(new FishingBoatAdapter());
     captain.row();
+
+    // Cannot invoke "com.iluwatar.adapter.RowingBoat.row()" because "this.rowingBoat" is null
+    var captain1 = new Captain();
+    captain1.row();
   }
 }

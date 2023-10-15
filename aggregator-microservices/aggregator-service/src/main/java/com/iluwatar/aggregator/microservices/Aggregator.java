@@ -48,6 +48,7 @@ public class Aggregator {
    *
    * @return a Product.
    */
+  // web应用
   @GetMapping("/product")
   public Product getProduct() {
 

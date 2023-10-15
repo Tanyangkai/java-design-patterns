@@ -43,7 +43,7 @@ public class ProductInformationClientImpl implements ProductInformationClient {
   public String getProductTitle() {
     var request = HttpRequest.newBuilder()
         .GET()
-        .uri(URI.create("http://localhost:51515/information"))
+        .uri(URI.create("http://localhost:51515/information")) // 去调用information-microservice
         .build();
     var client = HttpClient.newHttpClient();
     try {
