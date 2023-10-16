@@ -37,6 +37,8 @@ package com.iluwatar.proxy;
  *
  * <p>In this example the proxy ({@link WizardTowerProxy}) controls access to the actual object (
  * {@link IvoryTower}).
+ *
+ * 代理模式使你可以通过在代理对象中添加额外的逻辑来实现这些目的，而无需修改实际对象的代码。
  */
 public class App {
 
