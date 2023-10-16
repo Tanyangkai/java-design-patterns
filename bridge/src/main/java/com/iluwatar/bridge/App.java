@@ -38,6 +38,8 @@ import lombok.extern.slf4j.Slf4j;
  * <p>In this example we have two class hierarchies. One of weapons and another one of
  * enchantments. We can easily combine any weapon with any enchantment using composition instead of
  * creating deep class hierarchy.
+ *
+ * 装饰器模式关注于动态地增强对象的功能，而桥接模式关注于将抽象部分和实现部分分离，以应对多维度的变化。
  */
 @Slf4j
 public class App {
