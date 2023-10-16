@@ -28,6 +28,8 @@ import lombok.RequiredArgsConstructor;
 
 /**
  * Concrete factory class.
+ *
+ * // 步骤3：客户端代码
  */
 @RequiredArgsConstructor
 public class HeroFactoryImpl implements HeroFactory {

@@ -35,6 +35,13 @@ import lombok.extern.slf4j.Slf4j;
  *
  * <p>In this example we have a factory class ({@link HeroFactoryImpl}) producing objects by
  * cloning the existing ones. The factory's prototype objects are given as constructor parameters.
+ *
+ * 原型模式的核心思想是通过复制（克隆）现有的对象来创建新对象，而不是通过构造函数创建。
+ * 这使得新对象可以保留现有对象的状态和属性。
+ *
+ * 这种方式，你可以轻松地创建不同类型的英雄，而无需重新初始化它们。
+ * 原型设计模式有助于减少对象创建的开销，提高性能，同时保持代码的灵活性。
+ *
  */
 @Slf4j
 public class App {

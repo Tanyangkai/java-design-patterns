@@ -29,6 +29,8 @@ import lombok.NoArgsConstructor;
 
 /**
  * Beast.
+ *
+ * // 步骤2：创建具体原型类
  */
 @EqualsAndHashCode(callSuper = false)
 @NoArgsConstructor

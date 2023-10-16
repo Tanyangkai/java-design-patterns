@@ -29,12 +29,20 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * Prototype.
+ *
+ * // 步骤1：创建原型类
  */
 @Slf4j
 public abstract class Prototype<T> implements Cloneable {
 
   /**
    * Object a shallow copy of this object or null if this object is not Cloneable.
+   *
+   * 这个通用的 copy 方法使得所有继承自 Prototype 的类都可以轻松地进行浅拷贝。
+   * 浅拷贝意味着对象的基本属性会被复制，但如果对象包含引用其他对象的属性，那么引用会被复制，但实际的对象不会被克隆。
+   * 这就是为什么它被称为浅拷贝。
+   *
+   * 你可以在具体的原型类中重写 copy 方法，以便在需要时执行深拷贝，即复制对象以及其所有关联对象的副本。
    */
   @SuppressWarnings("unchecked")
   @SneakyThrows
