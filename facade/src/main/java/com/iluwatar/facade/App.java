@@ -34,6 +34,8 @@ package com.iluwatar.facade;
  *
  * <p>In this example the Facade is ({@link DwarvenGoldmineFacade}) and it provides a simpler
  * interface to the goldmine subsystem.
+ *
+ * 外观模式通过提供一个简单的接口来封装和简化复杂系统的访问，有助于改善代码的可维护性、降低耦合度，并提供更好的用户体验。
  */
 public class App {
 
